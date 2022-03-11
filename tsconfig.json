@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": ["es2017", "dom", "esnext"],
+
+    "target": "es5",
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "strict": false,
+  },
+  "exclude": ["node_modules"]
+  // "include": ["ormconfig.json"]
+}
